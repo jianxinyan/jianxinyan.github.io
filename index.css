@@ -1,0 +1,264 @@
+* {
+        margin: 0;
+        padding: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    
+}
+
+@font-face {
+    font-family:hotel;
+    src: url(fonts/GrandHotel-Regular.ttf)
+}
+
+@font-face {
+    font-family:tall;
+    src: url(fonts/talldark.ttf)
+}
+
+nav {
+    display: flex;
+    margin-left:auto;
+    margin-right:auto;
+    justify-content:center;
+
+}
+
+#posts::-webkit-scrollbar { 
+    display: none; 
+}
+
+#posts{
+    width:500px;
+    overflow: scroll;
+    height:700px;
+}
+
+.postImg{
+    width:100%;
+}
+
+.post{
+    padding:10px;
+}
+
+.logo{
+    margin:auto;
+    height: 85px;
+    width: 85px;
+    background-color:green;
+    border-radius: 50px;
+    -webkit-transition: height 0.3s, width 0.3s;
+}
+.logo:hover{
+    height:100px;
+    width:100px;
+}
+
+#searchbar{
+    border-width: 5px;
+}
+
+.user {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    background-color:#e85251;
+}
+
+.profile{
+    height:65px;
+}
+
+.dropdown{
+    background-image:url("https://www.facebook.com/rsrc.php/v3/yY/r/Lf6J5D1dYw-.png");
+    background-position: -2px -160px;
+    height:20px;
+    width:20px;
+}
+
+input:focus{
+    border-color: red;
+}
+
+input{
+    display:none;
+}
+
+.text{
+}
+
+section {
+    display:flex;
+    margin-bottom:none;
+    margin-left:auto;
+    margin-right:auto;
+    justify-content:center;
+    width:80%;
+    overflow-y:hidden;
+}
+
+header{
+    text-align:center;
+}
+
+header div{
+    display:flex;
+    justify-content: center;
+}
+
+.friendprofile{
+    width:50px;
+}
+
+.afriend{
+    height:100px;
+    -webkit-transition: 
+}
+
+#friends{
+    display:flex;
+    flex-flow:row wrap;
+    align-content:flex-start;
+    width:200px;
+}
+
+.logoButton{
+    height: 101px;
+    width: 101px;
+    vertical-align:middle;
+}
+
+
+
+.fb{
+    background-color:pink;    
+}
+
+.tt{
+    background-color:red;
+}
+
+.friendprofile{
+    width:100px;
+}
+
+.ig{
+    background-color:orange;
+}
+
+.pt{
+    background-color:lime;
+}
+
+#snowboard img{
+    content:url(data/images/ski.jpg);
+}
+#foodies img{
+    content:url(data/images/foodie.jpg);
+}
+#study img{
+    content:url(data/images/study.jpg);
+}
+#kard img{
+    content:url(data/images/kard.jpg);
+}
+#snowboard {
+    
+}
+
+#setting{
+}
+
+.groupImage{
+    display:inline-block;
+    height:60px;
+    width:60px;
+    vertical-align:middle;
+}
+
+.group{
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-right:10px;
+    display:inline-block;
+    background-color: #e85251;
+    -webkit-transition: background-color 0.2s;
+}
+
+.animate{
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-right:10px;
+    display:inline-block;
+    background-color: #e85251;
+    -webkit-transition: background-color 0.4s;
+}
+
+.animate:hover{
+    background-color:rgb(85, 0, 0);
+}
+
+h1{
+    font-size:50px;
+    font-family:tall;
+    font-weight: normal;
+    display:inline-block;
+    vertical-align:middle;
+    text-align:center;
+    color:white;
+    margin:0;
+
+}
+
+#groups{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+}
+
+.hidden{
+    display:none;
+}
+
+h1{
+    margin: 0.5em;
+}
+.text{
+    padding:5px;
+    background-color:#e85251;
+}
+
+h2{
+    font-family:Times;
+    display:block;
+    text-align:left;
+}
+
+
+
+body{
+    background-color: #ff615c;
+    overflow-y:hidden;
+}
+
+.info{
+    flex-flow: column nowrap;
+    justify-content:flex-start;
+    margin:5px;
+    flex-grow:1;
+}
+
+.offline{
+    -webkit-filter: grayscale(100%);
+}
+
+.off{
+    -webkit-filter: grayscale(100%);
+}
+
+
+
+
